@@ -9,14 +9,8 @@ public class Product {
     private String _productname;
     private double _price;
 
-    public Product() {
-    }
     public Product(String id, String productname, double price) {
         _id = id;
-        _productname = productname;
-        _price = price;
-    }
-    public Product(String productname, double price) {
         _productname = productname;
         _price = price;
     }
